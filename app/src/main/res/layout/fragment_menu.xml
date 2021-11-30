@@ -134,7 +134,7 @@
                         android:inputType="textPersonName"
                         android:paddingTop="10dp"
                         android:paddingBottom="7dp"
-                        android:text="Gratén Delfinés"
+                        android:text="Gratén"
                         android:textAlignment="center"
                         android:fontFamily="@font/robotoregular"
                         android:textColor="#662D15"

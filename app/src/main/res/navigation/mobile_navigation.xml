@@ -8,23 +8,23 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="usa.sesion1.reto2.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_registro"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="usa.sesion1.reto2.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_menus"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="usa.sesion1.reto2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_sucursales"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_menu"
         android:name="usa.sesion1.reto2.menuFragment"
-        android:label="fragment_menu"
+        android:label="@string/menu_carrito"
         tools:layout="@layout/fragment_menu" />
 </navigation>

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/drawable/side_nav_bar.xml" value="0.34739583333333335" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/activity_splash.xml" value="0.33125" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/app_bar_main.xml" value="0.33125" />
@@ -10,6 +11,8 @@
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/fragment_home.xml" value="0.33125" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/fragment_menu.xml" value="0.33125" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/fragment_slideshow.xml" value="0.33125" />
+        <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/layout/nav_header_main.xml" value="0.33125" />
+        <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/menu/activity_main_drawer.xml" value="0.33125" />
         <entry key="..\:/DOCUMENTOS/PROGRAMACION/MINTIC/APLICACIONES/Reto2/RetaurantApp2/app/src/main/res/menu/main.xml" value="0.33125" />
         <entry key="app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.3453125" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3453125" />
