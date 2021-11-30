@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -54,11 +56,49 @@ public class menuFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+    // Botones menu
+    private Button ordenar_btn1, ordenar_btn2, ordenar_btn3, ordenar_btn4;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_menu, container, false);
+        // se modifica el inflate empezando con un "view root" y se retorna el root
+        View root = inflater.inflate(R.layout.fragment_menu, container, false);
+
+        // Se conectan las variables a sus ids
+        ordenar_btn1 = root.findViewById(R.id.btnCassoulet);
+        ordenar_btn2 = root.findViewById(R.id.btnGraten);
+        ordenar_btn3 = root.findViewById(R.id.btnRatatouille);
+        ordenar_btn4 = root.findViewById(R.id.btnBullabesa);
+
+        // Acciones de los botones
+        ordenar_btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "Se agrego al carrito", Toast.LENGTH_LONG).show();
+            }
+        });
+        ordenar_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "Se agrego al carrito", Toast.LENGTH_LONG).show();
+            }
+        });
+        ordenar_btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "Se agrego al carrito", Toast.LENGTH_LONG).show();
+            }
+        });
+        ordenar_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "Se agrego al carrito", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        return root;
     }
 }
