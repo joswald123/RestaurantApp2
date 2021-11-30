@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="15dp"
             android:paddingBottom="25dp"
-            android:text="Selecciona tu menú:"
+            android:text="@string/menu_tittle"
             android:textAlignment="center"
             android:fontFamily="@font/dancingscriptbold"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
