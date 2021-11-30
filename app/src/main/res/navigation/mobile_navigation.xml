@@ -8,23 +8,43 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="usa.sesion1.reto2.ui.home.HomeFragment"
-        android:label="@string/menu_registro"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="usa.sesion1.reto2.ui.gallery.GalleryFragment"
-        android:label="@string/menu_menus"
+        android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="usa.sesion1.reto2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_sucursales"
+        android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_menu"
         android:name="usa.sesion1.reto2.menuFragment"
-        android:label="@string/menu_carrito"
+        android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="usa.sesion1.reto2.serviceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/nav_sucursales"
+        android:name="usa.sesion1.reto2.sucursalesFragment"
+        android:label="fragment_sucursales"
+        tools:layout="@layout/fragment_sucursales" />
+    <fragment
+        android:id="@+id/nav_signin"
+        android:name="usa.sesion1.reto2.signinFragment"
+        android:label="fragment_signin"
+        tools:layout="@layout/fragment_signin" />
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="usa.sesion1.reto2.signupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" />
 </navigation>
