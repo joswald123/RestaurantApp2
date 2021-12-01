@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -52,13 +54,31 @@ public class sucursalesFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
     }
+
+    private ImageView imgUbicacion;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sucursales, container, false);
+        // se modifica el inflate empezando con un "view root" y se retorna el root
+        View root = inflater.inflate(R.layout.fragment_sucursales, container, false);
+
+        // Se conectan las variables a sus ids
+        imgUbicacion = root.findViewById(R.id.imgUbicacion);
+
+        // Acciones de los botones
+        imgUbicacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "Pronto podrás ver la ubicación", Toast.LENGTH_LONG).show();
+            }
+        });
+    return root;
     }
+
+
 }
