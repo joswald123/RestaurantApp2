@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+    //private FloatingActionButton fabWhatsapp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.appBarMain.toolbar);
 
-        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+        binding.appBarMain.fabWhatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Contactanos", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Pronto tomaremos tus pedidos por WhatsApp", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
