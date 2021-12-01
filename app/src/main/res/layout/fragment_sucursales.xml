@@ -31,10 +31,7 @@
                     android:paddingTop="20dp"
                     android:paddingRight="30dp"
                     android:paddingBottom="10dp"
-                    android:text="Autopista norte #98-24
-
-                    Teléfono para pedidos: 9016235
-                    Horario: Lunes a domingo, 7 am a 10 pm"
+                    android:text="@string/menu_sucursalesdirecc1"
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#662D15"
@@ -50,10 +47,7 @@
                     android:paddingTop="20dp"
                     android:paddingRight="30dp"
                     android:paddingBottom="10dp"
-                    android:text="Calle 57 #28-16, primer piso
-
-                    Teléfono para pedidos: 4569217
-                    Horario: Lunes a domingo, 7 am a 10 pm"
+                    android:text="@string/menu_sucursalesdirecc2"
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#662D15"
@@ -69,9 +63,7 @@
                     android:paddingTop="20dp"
                     android:paddingRight="30dp"
                     android:paddingBottom="10dp"
-                    android:text="Avenida Cra 68 # 22-14
-                    Teléfono para pedidos: 3658234
-                    Horario: Lunes a sábado, 7 am a 10 pm"
+                    android:text="@string/menu_sucursalesdirecc3"
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#662D15"
