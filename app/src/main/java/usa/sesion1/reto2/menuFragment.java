@@ -58,8 +58,7 @@ public class menuFragment extends Fragment {
     }
     // Botones menu
     private Button ordenar_btn1, ordenar_btn2, ordenar_btn3, ordenar_btn4;
-
-
+    
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
