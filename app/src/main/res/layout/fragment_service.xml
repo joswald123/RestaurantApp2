@@ -28,13 +28,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:fontFamily="@font/robotoregular"
-                    android:paddingTop="20dp"
+                    android:fontFamily="@font/dancingscriptbold"
+                    android:paddingTop="15dp"
                     android:text="Nos encargaremos de la comida en tus eventos"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#662D15"
-                    android:textSize="24sp"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -59,12 +59,12 @@
                     android:id="@+id/tvwMenus"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/robotoregular"
+                    android:fontFamily="@font/dancingscriptbold"
                     android:text="Menú para toda ocación"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#662D15"
-                    android:textSize="24sp"
+                    android:textSize="35sp"
                     android:textStyle="bold" />
 
                 <ImageView
