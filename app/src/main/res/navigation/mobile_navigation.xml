@@ -24,27 +24,27 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_menu"
-        android:name="usa.sesion1.reto2.menuFragment"
+        android:name="usa.sesion1.reto2.ui.menu.menuFragment"
         android:label="Menú"
         tools:layout="@layout/fragment_menu" />
     <fragment
         android:id="@+id/nav_service"
-        android:name="usa.sesion1.reto2.serviceFragment"
+        android:name="usa.sesion1.reto2.ui.servicios.serviceFragment"
         android:label="Servicios"
         tools:layout="@layout/fragment_service" />
     <fragment
         android:id="@+id/nav_sucursales"
-        android:name="usa.sesion1.reto2.sucursalesFragment"
+        android:name="usa.sesion1.reto2.ui.sucursales.sucursalesFragment"
         android:label="Sucursales"
         tools:layout="@layout/fragment_sucursales" />
     <fragment
         android:id="@+id/nav_signin"
-        android:name="usa.sesion1.reto2.signinFragment"
+        android:name="usa.sesion1.reto2.ui.login.signinFragment"
         android:label="Sign In"
         tools:layout="@layout/fragment_signin" />
     <fragment
         android:id="@+id/nav_signup"
-        android:name="usa.sesion1.reto2.signupFragment"
+        android:name="usa.sesion1.reto2.ui.login.signupFragment"
         android:label="Sign Up"
         tools:layout="@layout/fragment_signup" />
 </navigation>
